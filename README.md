@@ -9,7 +9,7 @@
 
 ## Description
 
-[Your Project Description]
+A simple authentication system implemented in Python with a graphical user interface (GUI) using PyQt5. The system allows users to log in and register securely. User data is stored in an SQLite database, ensuring data persistence between sessions.
 
 ## Table of Contents
 
