@@ -35,6 +35,7 @@
 ## Screenshots
 
 ![Screenshot 2](https://github.com/Rovindu-Thamuditha/authentication-system/blob/main/screenshots/registerwindow.png)
+
 ![Screenshot 1](https://github.com/Rovindu-Thamuditha/authentication-system/blob/main/screenshots/loginwindow.png)
 
 ## Installation
