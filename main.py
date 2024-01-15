@@ -73,7 +73,7 @@ ALERT_MSG_BOX_STYLE = """
 class Authentication(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi('gui/loginUi.ui', self)
+        uic.loadUi('assets/loginUi.ui', self)
 
         self.user_login_btn.setStyleSheet("""
             QPushButton {

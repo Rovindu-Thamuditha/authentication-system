@@ -71,7 +71,7 @@ ALERT_MSG_BOX_STYLE = """
 class App(QMainWindow):
     def __init__(self):
         super().__init__()        
-        uic.loadUi('gui/registerUi.ui', self)
+        uic.loadUi('assets/registerUi.ui', self)
 
         self.registerBtn.clicked.connect(self.register_user)
         self.registerBtn.setStyleSheet("""
