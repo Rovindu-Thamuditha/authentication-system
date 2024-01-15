@@ -119,8 +119,8 @@ class Authentication(QMainWindow):
             alert.setWindowTitle("Login Successful")
             alert.setText(f'Welcome {username}')
             self.close()
-            self.library_system = LibraryManagementSystem()
-            self.library_system.show()
+            self.app = App()
+            self.app.show()
 
 
         else:
@@ -134,11 +134,11 @@ class Authentication(QMainWindow):
         alert.exec_()
 
 
-class LibraryManagementSystem(QWidget):
+class App(QWidget):
     def __init__(self):
         super().__init__()
 
-        self.setWindowTitle("Library Management System")
+        self.setWindowTitle("Hello World")
         self.setGeometry(100, 100, 800, 600)  # Adjust the size and position as needed
 
         self.setup_ui()
@@ -146,7 +146,7 @@ class LibraryManagementSystem(QWidget):
     def setup_ui(self):
         layout = QVBoxLayout()
 
-        welcome_label = QLabel("Welcome to the Library Management System!")
+        welcome_label = QLabel("Welcome to this Window")
         welcome_label.setStyleSheet("font-size: 18px; color: #fff;")
 
         # Add more widgets and functionality as needed
